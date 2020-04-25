@@ -1091,8 +1091,8 @@ input[type='checkbox'] {
 /*     09. Details     */
 /***********************/
 .basic-1 {
-	padding-top: 7.5rem;
-	padding-bottom: 8rem;
+	padding-top: 2rem;
+	padding-bottom: 0;
 }
 
 .basic-1.colored {
@@ -1920,6 +1920,11 @@ a:hover.back-to-top {
 	/* Details */
 	.basic-1 {
 		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	.basic-1 .p-heading {
+		padding-bottom: 5rem;
 	}
 
 	.basic-1 .text-container {
@@ -2089,17 +2094,6 @@ a:hover.back-to-top {
 
 
 	/* Details */
-	.basic-1 .image-container {
-		margin-right: 1rem;
-		margin-left: 1.5rem;
-	}
-	
-	.basic-1 .text-container {
-		margin-top: 1rem;
-		margin-right: 1.5rem;
-		margin-left: 1rem;
-	}
-
 	.basic-1 h2 {
 		margin-bottom: 1rem;
 	}
